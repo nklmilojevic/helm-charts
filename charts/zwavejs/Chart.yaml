@@ -1,0 +1,20 @@
+apiVersion: v2
+appVersion: 1.0.0
+description: zwavejs helm package
+name: zwavejs
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+- valetudo
+- zwavejs
+home: https://github.com/nklmilojevic/charts/tree/main/charts/zwavejs
+icon:
+sources:
+- https://github.com/zwave-js/zwavejs2mqtt
+maintainers:
+- name: Nikola Milojević
+  email:  nikola@milojevic.me
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 3.3.0

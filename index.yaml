@@ -3,13 +3,13 @@ entries:
   valetudo-mapper:
     - apiVersion: v2
       appVersion: 1.0.0
-      created: "2021-08-06T18:42:19.841191+02:00"
+      created: "2021-08-06T19:26:15.260189+02:00"
       dependencies:
         - name: common
           repository: https://library-charts.k8s-at-home.com
           version: 3.3.0
       description: valetudo-mapper helm package
-      digest: f86447d4bafd6cf162d121a9cfa259f33f238aa2ab8d3172175d3a8da7214c2f
+      digest: 96ff0040abd1022f2f669d8b287b535ae63f052ed8a3e567a576df6115122777
       home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/valetudo-mapper
       keywords:
         - valetudo
@@ -24,4 +24,28 @@ entries:
       urls:
         - https://raw.githubusercontent.com/nklmilojevic/helm-charts/main/index/valetudo-mapper-1.0.0.tgz
       version: 1.0.0
-generated: "2021-08-06T18:42:19.839058+02:00"
+  zwavejs:
+    - apiVersion: v2
+      appVersion: 1.0.0
+      created: "2021-08-06T19:26:15.261661+02:00"
+      dependencies:
+        - name: common
+          repository: https://library-charts.k8s-at-home.com
+          version: 3.3.0
+      description: zwavejs helm package
+      digest: 9910cae4df625efdcbd24474f9cae460bc54c8ba2327357fdea0c33e96952272
+      home: https://github.com/nklmilojevic/charts/tree/main/charts/zwavejs
+      keywords:
+        - valetudo
+        - zwavejs
+      kubeVersion: ">=1.16.0-0"
+      maintainers:
+        - email: nikola@milojevic.me
+          name: Nikola Milojević
+      name: zwavejs
+      sources:
+        - https://github.com/zwave-js/zwavejs2mqtt
+      urls:
+        - https://raw.githubusercontent.com/nklmilojevic/helm-charts/main/index/zwavejs-1.0.0.tgz
+      version: 1.0.0
+generated: "2021-08-06T19:26:15.258588+02:00"
