@@ -25,6 +25,8 @@ service:
   main:
     ports:
       http:
+        port: 8091
+      node:
         port: 3000
 
 ingress:
