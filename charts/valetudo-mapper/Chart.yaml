@@ -1,0 +1,20 @@
+apiVersion: v2
+appVersion: 1.0.0
+description: valetudo-mapper helm package
+name: valetudo-mapper
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+- valetudo
+- valetudo-mapper
+home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/valetudo-mapper
+icon: 
+sources:
+- https://github.com/rand256/valetudo-mapper
+maintainers:
+- name: Nikola Milojević
+  email:  nikola@milojevic.me
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 3.3.0
