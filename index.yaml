@@ -3,7 +3,29 @@ entries:
   unbound:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T16:26:50.424636+02:00"
+    created: "2021-08-07T20:14:27.448966+02:00"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 3.3.0
+    description: unbound helm package
+    digest: efd9db9d3354682b2e17287301408a0f126975dc5ae3e051f6fc9c8384da1826
+    home: https://github.com/nklmilojevic/helm-charts/tree/main/charts/unbound
+    keywords:
+    - unbound
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: nikola@milojevic.me
+      name: Nikola Milojević
+    name: unbound
+    sources:
+    - https://github.com/klutchell/unbound
+    urls:
+    - https://raw.githubusercontent.com/nklmilojevic/helm-charts/main/index/unbound-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-08-07T20:14:27.447434+02:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -25,7 +47,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T16:26:50.422756+02:00"
+    created: "2021-08-07T20:14:27.445653+02:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -47,7 +69,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T16:26:50.420862+02:00"
+    created: "2021-08-07T20:14:27.44326+02:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -69,7 +91,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T16:26:50.418988+02:00"
+    created: "2021-08-07T20:14:27.441348+02:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -91,7 +113,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T16:26:50.417071+02:00"
+    created: "2021-08-07T20:14:27.439404+02:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -114,13 +136,13 @@ entries:
   valetudo-mapper:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T16:26:50.426133+02:00"
+    created: "2021-08-07T20:14:27.450444+02:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
       version: 3.3.0
     description: valetudo-mapper helm package
-    digest: 1b462a592731754ca88bac1e7e8e5367794873d75b837d511ab5ea66f2b4e5ef
+    digest: 9b2e7a9c3f9d9724faecd0210a0999b446fc1260fd26913826e8c0ccc3422379
     home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/valetudo-mapper
     keywords:
     - valetudo
@@ -138,13 +160,13 @@ entries:
   zwavejs:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T16:26:50.429441+02:00"
+    created: "2021-08-07T20:14:27.454378+02:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
       version: 3.3.0
     description: zwavejs helm package
-    digest: dfbe870691c44cafde8925df2d828ee0e90916d3ae976411f5b53e4f7aca8df0
+    digest: d828acdabf7db5f50dc0422fd7229e5bddbfb812c62266663203cd5fccaf16ef
     home: https://github.com/nklmilojevic/helm-harts/tree/main/charts/zwavejs
     keywords:
     - valetudo
@@ -161,7 +183,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T16:26:50.428012+02:00"
+    created: "2021-08-07T20:14:27.452391+02:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -182,4 +204,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/nklmilojevic/helm-charts/main/index/zwavejs-1.0.0.tgz
     version: 1.0.0
-generated: "2021-08-07T16:26:50.414229+02:00"
+generated: "2021-08-07T20:14:27.436673+02:00"

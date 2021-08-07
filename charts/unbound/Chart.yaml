@@ -2,12 +2,11 @@ apiVersion: v2
 appVersion: 1.0.0
 description: unbound helm package
 name: unbound
-version: 1.0.4
+version: 1.0.5
 kubeVersion: ">=1.16.0-0"
 keywords:
   - unbound
 home: https://github.com/nklmilojevic/helm-charts/tree/main/charts/unbound
-icon:
 sources:
   - https://github.com/klutchell/unbound
 maintainers:

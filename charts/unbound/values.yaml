@@ -24,7 +24,7 @@ env:
 service:
   main:
     ports:
-      http:
+      dns:
         port: 53
         protocol: UDP
         targetPort: 53
