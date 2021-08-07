@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: 1.0.0
 description: unbound helm package
 name: unbound
-version: 1.0.3
+version: 1.0.4
 kubeVersion: ">=1.16.0-0"
 keywords:
   - unbound

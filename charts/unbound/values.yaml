@@ -22,8 +22,7 @@ env:
 # -- Configures service settings for the chart.
 # @default -- See values.yaml
 service:
-  dns:
-    enabled: true
+  main:
     ports:
       http:
         port: 53
