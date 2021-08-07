@@ -25,8 +25,7 @@ service:
   dns:
     enabled: true
     ports:
-      dns:
-        enabled: true
+      http:
         port: 53
         protocol: UDP
         targetPort: 53
