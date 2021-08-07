@@ -3,7 +3,29 @@ entries:
   unbound:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T15:31:48.977433+02:00"
+    created: "2021-08-07T15:43:36.20253+02:00"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 3.3.0
+    description: unbound helm package
+    digest: f4f5f90e08d3da9c813bcc6cd713dfcf6963ee60277df4ec9879dfedf702274d
+    home: https://github.com/nklmilojevic/helm-charts/tree/main/charts/unbound
+    keywords:
+    - unbound
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: nikola@milojevic.me
+      name: Nikola Milojević
+    name: unbound
+    sources:
+    - https://github.com/klutchell/unbound
+    urls:
+    - https://raw.githubusercontent.com/nklmilojevic/helm-charts/main/index/unbound-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-08-07T15:43:36.201002+02:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -26,13 +48,13 @@ entries:
   valetudo-mapper:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T15:31:48.978976+02:00"
+    created: "2021-08-07T15:43:36.204151+02:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
       version: 3.3.0
     description: valetudo-mapper helm package
-    digest: 8f3b9bba7c7a3e06522af02a15785d7808a8029df3efed57874ac1d7f4f6afa6
+    digest: 26f4845c842c274eaef7aafcfccdf93b47bc07c5a686e77659ade7bb47fd286a
     home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/valetudo-mapper
     keywords:
     - valetudo
@@ -50,14 +72,14 @@ entries:
   zwavejs:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T15:31:48.983178+02:00"
+    created: "2021-08-07T15:43:36.208335+02:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
       version: 3.3.0
     description: zwavejs helm package
-    digest: 73f4e1125f362210a7b87c5a7661d7382c844d1fff0711f92633fb2948bf60d5
-    home: https://github.com/nklmilojevic/charts/tree/main/charts/zwavejs
+    digest: 2fa7ddc4140355440b3b7429c693e95250c6e51fc8d5989947027cd26a5e47f1
+    home: https://github.com/nklmilojevic/helm-harts/tree/main/charts/zwavejs
     keywords:
     - valetudo
     - zwavejs
@@ -73,7 +95,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-07T15:31:48.980494+02:00"
+    created: "2021-08-07T15:43:36.20621+02:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -94,4 +116,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/nklmilojevic/helm-charts/main/index/zwavejs-1.0.0.tgz
     version: 1.0.0
-generated: "2021-08-07T15:31:48.975738+02:00"
+generated: "2021-08-07T15:43:36.198468+02:00"

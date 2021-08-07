@@ -7,7 +7,7 @@ kubeVersion: ">=1.16.0-0"
 keywords:
 - valetudo
 - zwavejs
-home: https://github.com/nklmilojevic/charts/tree/main/charts/zwavejs
+home: https://github.com/nklmilojevic/helm-harts/tree/main/charts/zwavejs
 icon:
 sources:
 - https://github.com/zwave-js/zwavejs2mqtt
