@@ -1,0 +1,19 @@
+apiVersion: v2
+appVersion: 1.0.0
+description: unbound helm package
+name: unbound
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - unbound
+home: https://github.com/nklmilojevic/charts/tree/main/charts/unbound
+icon:
+sources:
+  - https://github.com/nklmilojevic/unbound-docker
+maintainers:
+  - name: Nikola Milojević
+    email: nikola@milojevic.me
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 3.3.0

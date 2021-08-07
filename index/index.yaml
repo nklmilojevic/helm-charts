@@ -1,15 +1,38 @@
 apiVersion: v1
 entries:
+  unbound:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-08-07T15:31:48.977433+02:00"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 3.3.0
+    description: unbound helm package
+    digest: 429e720030eff981238e72cdad5f21a99c185058133c4f5e5556ba167d778fd4
+    home: https://github.com/nklmilojevic/charts/tree/main/charts/unbound
+    keywords:
+    - unbound
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: nikola@milojevic.me
+      name: Nikola Milojević
+    name: unbound
+    sources:
+    - https://github.com/nklmilojevic/unbound-docker
+    urls:
+    - https://raw.githubusercontent.com/nklmilojevic/helm-charts/main/index/unbound-1.0.0.tgz
+    version: 1.0.0
   valetudo-mapper:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-06T19:34:40.122033+02:00"
+    created: "2021-08-07T15:31:48.978976+02:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
       version: 3.3.0
     description: valetudo-mapper helm package
-    digest: 9d60df42d4a4aec6ec15f7cb6febc09c47f32e02bff7d469754901c2a3d942a2
+    digest: 8f3b9bba7c7a3e06522af02a15785d7808a8029df3efed57874ac1d7f4f6afa6
     home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/valetudo-mapper
     keywords:
     - valetudo
@@ -27,13 +50,13 @@ entries:
   zwavejs:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-06T19:34:40.126172+02:00"
+    created: "2021-08-07T15:31:48.983178+02:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
       version: 3.3.0
     description: zwavejs helm package
-    digest: 2264e280dbf45d989d19a964bf4ab893d9e712964e7613692bf6b05018362cc2
+    digest: 73f4e1125f362210a7b87c5a7661d7382c844d1fff0711f92633fb2948bf60d5
     home: https://github.com/nklmilojevic/charts/tree/main/charts/zwavejs
     keywords:
     - valetudo
@@ -50,7 +73,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-08-06T19:34:40.124118+02:00"
+    created: "2021-08-07T15:31:48.980494+02:00"
     dependencies:
     - name: common
       repository: https://library-charts.k8s-at-home.com
@@ -71,4 +94,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/nklmilojevic/helm-charts/main/index/zwavejs-1.0.0.tgz
     version: 1.0.0
-generated: "2021-08-06T19:34:40.120149+02:00"
+generated: "2021-08-07T15:31:48.975738+02:00"
